@@ -28,7 +28,7 @@ if RecPorHora:
   data = load_data(500)
   st.subheader('Numero de recorridos por hora')
   grafica = np.histogram(data[DATE_COLUMN].dt.hour, bins=24, range=(0,24))[0]
-  st.bar_chart
+  st.bar_chart(grafica)
 
 hour_tofilter = sidebar.slider('HORA', 0, 23, 9)
 if hour_tofilter:
