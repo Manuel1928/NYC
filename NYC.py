@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
 
-bicicletas='/content/citibike-tripdata.csv'
+bicicletas='https://raw.githubusercontent.com/Manuel1928/NYC/main/citibike-tripdata.csv'
 DATE_COLUMN = 'started_at'
 
 sidebar = st.sidebar
