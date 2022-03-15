@@ -6,6 +6,8 @@ import streamlit as st
 bicicletas='https://raw.githubusercontent.com/Manuel1928/NYC/main/citibike-tripdata.csv'
 DATE_COLUMN = 'started_at'
 
+st.title("Recorridos en bicicletas en NYC")
+
 sidebar = st.sidebar
 sidebar.title("Menu")
 
